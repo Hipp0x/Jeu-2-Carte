@@ -1,0 +1,118 @@
+.bloc {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.haut {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 28px;
+}
+
+.titre {
+	margin-right: 50px; 
+	width: 500px;
+	height: 180px;
+	background-color: #9999ff;
+	border-radius: 20px;
+}
+
+.mess {
+	margin-top: 10px;
+	color: red;
+}
+
+.txt {
+	text-align: center;
+	border-radius: 6px;
+	margin-right: 12px;
+}
+
+.butt {
+	border-radius: 20px;
+	width: 100px;
+	height: 25px;
+}
+
+.nb_carte {
+	padding-top: 5px;
+	margin-left: 50px;
+	width: 500px;
+	height: 175px;
+	background-color: #df80ff;
+	border-radius: 20px;
+}
+
+.all {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.carte {	
+	word-wrap:break-word;
+}
+
+.carte p{
+	word-wrap: break-word;
+	font-size: 110%;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	padding-top: 50px; 
+	border-radius: 20px;
+	box-shadow: 0px 8px 12px #aaa;
+	margin: 30px;
+}
+
+.carte a:link {
+	color: black;
+	text-decoration: none;
+}
+
+.carte a:visited {
+	color:black;
+	text-decoration: none;
+}
+
+.blck:hover {
+	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 13px 46px 0 rgba(0,0,0,0.19);
+	transition-duration:1s;
+}
+
+.blck:active{
+	transform: translateY(2px);
+	transition-duration:0.05s;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.acc {
+	top: 80px;
+	left: 20px;
+	position: fixed;
+	width: 150px;
+	height:40px;
+}
+
+.acc p {
+	background-color: #CCCCCC;
+	width: 150px;
+	height:40px;
+	text-align: center;
+	padding-top: 20px;
+	border-radius: 30px;
+	color: black;
+}
+
+.acc a:link {
+	color: black;
+	text-decoration: none;
+}
+
+.acc a:visited {
+	color: black;
+	text-decoration: none;
+}

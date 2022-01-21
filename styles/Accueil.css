@@ -1,0 +1,107 @@
+/*.Head:visited, .Head:link{
+    background-color:#262626;
+    color: white;
+    font-size:17px;
+    border: 2px solid white;
+    border-radius:20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Head:hover, .Head:active{
+    background-color:#0d0d0d;
+}
+*/
+
+body{
+    text-align:center;
+    font-size:x-large;
+    font-family: "Palatino", "URW Palladio L", "serif";
+}
+
+h1 {
+    font-family: Didot;
+    color: #b366ff;
+    border-bottom-color: #a64dff;
+    border-bottom-style: solid;
+    width: 900px;
+    justify-content: center;
+    margin: auto;
+}
+
+.accueil {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 800px;
+    margin: auto;
+}
+
+.acc p{
+    margin: auto;
+    font-size: 120%;
+    font-weight: bold;
+    background: linear-gradient(#b366ff, 30%, #ffcccc);
+    height: 100px;
+    width: 800px;
+    padding-top: 50px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.accco p {
+    margin: auto;
+    font-weight: bold;
+    background: linear-gradient(#ff3333, 40%, #ffff66);
+    height: 70px;
+    width: 800px;
+    padding-top: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.acc a:hover{
+    background-color: transparent;
+
+}
+
+.acc a:visited{
+    color:black;
+    text-decoration: none;
+} 
+
+.acc a:link {
+    color:black;
+    text-decoration: none;
+}
+
+.accco a:hover{
+    background-color: transparent;
+
+}
+
+.accco a:visited{
+    color:black;
+    text-decoration: none;
+} 
+
+.accco a:link {
+    color:black;
+    text-decoration: none;
+}
+
+
+.blck:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 13px 46px 0 rgba(0,0,0,0.19);
+    transition-duration:1s;
+}
+
+.blck:active{
+    transform: translateY(2px);
+    transition-duration:0.05s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+

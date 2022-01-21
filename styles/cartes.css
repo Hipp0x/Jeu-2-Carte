@@ -1,0 +1,223 @@
+@keyframes fadeTW{
+from{color:red;}
+to {color:white;}
+}
+
+.flip-card {
+  background-color: transparent;
+  word-wrap: break-word;
+  width: 200px;
+  height: 250px;
+  border: 1px solid white;
+  border-radius: 20px;
+  perspective: 1000px;
+  margin:auto;
+  margin-top:10%;
+  margin-bottom:20px;
+}
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card:active .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border:1px solid #f1f1f1;
+  border-radius:20px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #bbb;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+#btons {
+    margin:auto;
+    text-align:center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    position:relative;
+    left:60px;
+}
+
+.blck {
+    border-radius: 10px;
+    width: 190px;
+    height:50px;
+    margin-right:20px;
+}
+
+.blck:hover{
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 13px 46px 0 rgba(0,0,0,0.19);
+    transition-duration:1s;
+}
+
+.blck:active{
+    transform: translateY(2px);
+    transition-duration:0.05s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#helpbtn{
+    width:80px;
+    height:50px;
+    background-color:#bbb;
+    border-color:#bbb;
+    display:inline-block;
+}
+
+#help{
+    width:500px;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align:center;
+    word-wrap: break-word;
+    border-radius:20px;
+}
+
+#helpbtn:active #help{
+    display:block;
+}
+
+.capit::first-letter{
+    text-transform: uppercase;
+}
+
+body{
+    text-align:center;
+}
+
+.sig{
+color:red;
+animation-name:fadeTW;
+animation-duration: 2s;
+animation-delay:1s;
+animation-fill-mode:forwards;
+}
+
+
+.signalement { 
+  margin-top: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.butt {
+  margin-top: 8px;
+}
+
+.button {
+  border-radius: 20px;
+  background-color: #d9d9d9;
+  width: 180px;
+  height: 30px;
+}
+
+.custom-select-sign {
+  position: relative;
+  border-radius: 20px;
+}
+
+.custom-select-sign select {
+  text-align: center;
+  border-radius: 20px;
+  width: 200px;
+  height: 35px;
+  background-color: #d9d9d9;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.custom-select-sign::after {
+  content: '';
+  position: absolute;
+  top: 50%; 
+  margin-top: -3px;
+  right: .75em;  
+  display: block; 
+  width: 0; height: 0;
+  border-color: transparent;
+  border-top-color: #444; 
+  border-width: 6px;
+  border-style: solid;
+  pointer-events: none;
+}
+
+.end{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    margin-top:15%;
+}
+
+h2{
+    font-size:xx-large;
+    margin:auto;
+    padding:50px;
+    width:50%;
+    border: 3px solid transparent;
+    border-radius: 30px;
+}
+
+
+#par2{
+    margin:auto;
+    margin-top:30px;
+    width:50%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+#par2 p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#par2 a:visited ,#par2 a:link{
+    margin-right:30px;
+    color:black;
+    font-size:x-large;
+    text-decoration:none;
+    border:2px transparent;
+    border-radius:40px;
+    background-color: #bbbbbb;
+}
+
+#par2 a:hover{
+    background-color:bbb;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 13px 46px 0 rgba(0,0,0,0.19);
+    transition-duration:1s;
+}
+
+#par2 a:active{
+    transform: translateY(2px);
+    transition-duration:0.05s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

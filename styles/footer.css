@@ -1,0 +1,42 @@
+
+footer {
+	font-size:x-large;
+	list-style-type: none;
+	margin:0;
+	margin-top:100px;
+	display:flex;
+	flex-direction:column;
+	padding:0;
+	background-color: #b3b3b3;
+	width:100%;
+	justify-content: center;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.up {
+	display: flex;
+	flex-direction: row;
+}
+
+.copy {
+	font-size: 80%;
+}
+
+.droite {
+	width: 30%;
+	margin-right: 5%;
+}
+
+.centre {
+	padding-top: 8px;
+	width: 30%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.gauche {
+	padding-top: 20px;
+	width: 30%;
+	margin-left: 5%;
+}

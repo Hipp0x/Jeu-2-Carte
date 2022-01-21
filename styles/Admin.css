@@ -1,0 +1,176 @@
+@keyframes fadeTW{
+    from{color:red;}
+    to {color:transparent;}
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.important {
+    color: red;
+    font-size: 120%;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.para1 {
+    margin: auto;
+    display: flex;
+    flex-direction: row;    
+}
+
+.souspar1a {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 225px;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: #99ccff;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.souspar1 {
+    width: 600px;
+    height: 225px;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: #99ccff;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.suppadm{
+    padding-top: 20px;
+}
+
+.para2 {
+    margin: auto;
+    display: flex;
+    flex-direction: row;   
+}
+
+.souspar2a {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 240px;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: #ffb3ff;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.souspar2 {
+    width: 600px;
+    height: 240px;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color:#ffb3ff;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.ajth {
+    padding-top: 10px;
+}
+
+.para3 {
+    margin: auto;  
+    width: 650px;
+    height: 260px;
+    border-radius: 15px;
+    background-color: #ffcc99;
+    margin-bottom: 30px;
+}
+
+.para4 {
+    margin: auto;
+    width: 650px;
+    height: 260px;
+    border-radius: 15px;
+    background-color:#99ff99;
+}
+
+.lab {
+    margin-bottom: 18px;
+    margin-right: 40px;
+}
+
+.inpu {
+    margin-bottom: 8px;
+    text-align: center;
+    border-radius: 12px;
+    height: 20px;
+}
+
+.butt {
+    margin-top: 15px;
+}
+
+.button {
+    border-radius: 20px;
+    width: 100px;
+    height: 25px;
+}
+
+.mess {
+    margin-top: 15px;
+    color: red;
+    animation-name:fadeTW;
+    animation-duration: 3s;
+    animation-delay:1s;
+    animation-fill-mode:forwards;
+}
+
+.centre-sous {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.balise {
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-select-admn {
+    position: relative;
+    border-radius: 20px;
+}
+
+.custom-select-admn select {
+    text-align: center;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.custom-select-admn::after {
+    content: '';
+    position: absolute;
+    top: 50%; 
+    margin-top: -3px;
+    right: .75em;  
+    display: block; 
+    width: 0; height: 0;
+    border-color: transparent;
+    border-top-color: #444; 
+    border-width: 6px;
+    border-style: solid;
+    pointer-events: none;
+}

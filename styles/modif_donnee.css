@@ -1,0 +1,120 @@
+.bod {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.bloc {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+}
+
+.pseudo {
+	margin-left: 80px;
+	padding-top: 80px;
+	margin-right: 150px;
+	width: 500px;
+	height:320px;
+	background-color:#ffff80;
+	border-radius: 20px;
+}
+
+.pseudo h3 {
+	text-align: center;
+
+}
+
+.mdp {
+	border-radius: 20px;
+	padding-top: 40px;
+	margin-right: 150px;
+	width: 500px;
+	height: 360px;
+	background-color:#99ccff;
+}
+
+.mdp h3 {
+	text-align: center;
+}
+
+.mail {
+	margin-right: 80px;
+	border-radius: 20px;
+	padding-top: 50px;
+	width: 500px;
+	height: 350px;
+	background-color:#ffb3d9;
+}
+
+.mail h3 {
+	text-align: center;
+}
+
+.txt {
+	margin-left: 25px;
+	
+	margin-bottom: 20px;
+}
+
+.champs {
+	margin-left: 35px;
+	margin-top: 10px;
+	border-radius: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.butt {
+	text-align: center;
+}
+
+.button1 {
+	padding: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+	border-radius: 30px;
+	margin-top: 10px;
+	background-color: #ffff4d;
+	text-align: center;
+}
+
+.button2 {
+	padding: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+	border-radius: 30px;
+	margin-top: 10px;
+	background-color: #66b3ff;
+	text-align: center;
+}
+
+
+.button3 {
+	padding: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+	border-radius: 30px;
+	margin-top: 10px;
+	background-color: #FFB6C1;
+	text-align: center;
+}
+
+.erreur {
+	text-align: center;
+	color: red;
+	margin-top: 15px;
+}
+
+.retour {
+	margin : auto;
+	margin-top: 30px;
+}
+
+.button {
+	border-radius: 20px;
+	width: 160px;
+	height: 35px;
+	background-color: #bfbfbf;
+}

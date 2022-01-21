@@ -1,0 +1,133 @@
+p {
+	text-align: center;
+}
+
+.bloc {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}
+
+.ques {	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.rep {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.aid {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.base p{
+	font-weight: bold;
+	background-color: #a6a6a6;
+	height: 60px;
+	width: 200px;
+	text-align: center;
+	padding-top: 40px; 
+	border-radius: 10px;	
+	box-shadow: 0px 5px 8px #aaa;
+	margin-right: 50px;
+	word-wrap: break-word;
+}
+
+.carte1 p{
+	height: 60px;
+	width: 200px;
+	text-align: center;
+	padding-top: 40px; 
+	border-radius: 10px;
+	box-shadow: 0px 5px 8px #aaa;
+	margin-right: 20px;
+	word-wrap: break-word;
+}
+
+.transition {
+	margin-right: 14px;
+	margin-top: 58px;
+	width: 0;
+	height: 0;    
+	border-top: 16px solid transparent;
+	border-bottom: 16px solid transparent;    
+	border-left: 20px solid gray;
+}
+
+
+.carte2 p{
+	height: 60px;
+	width: 200px;
+	text-align: center;
+	padding-top: 40px; 
+	border-radius: 10px;
+	box-shadow: 0px 5px 8px #aaa;
+	word-wrap: break-word;
+}
+
+.champ {
+	text-align: center;
+	border-radius: 10px;
+	height: 25px;
+}
+
+.butt {
+	margin-top: 20px;
+}
+
+.button {
+	background-color: #CCCCCC;
+	width: 150px;
+	height:40px;
+	text-align: center;
+	border-radius: 30px;
+	font-weight: bold;
+	color: black;
+}
+
+.acc {
+	top: 150px;
+	left: 40px;
+	position: fixed;
+}
+
+.acc p {
+	background-color: #CCCCCC;
+	width: 150px;
+	height:40px;
+	text-align: center;
+	padding-top: 20px;
+	border-radius: 30px;
+	color: black;
+}
+
+.blck:hover {
+	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 13px 46px 0 rgba(0,0,0,0.19);
+	transition-duration:1s;
+}
+
+.blck:active{
+	transform: translateY(2px);
+	transition-duration:0.05s;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.acc a:link {
+	color: black;
+	text-decoration: none;
+}
+
+.acc a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.mess {
+	color: red;
+}

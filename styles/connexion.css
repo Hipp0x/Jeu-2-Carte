@@ -1,0 +1,36 @@
+.principale {
+	margin: 150px auto;
+	height: 400px;
+	width: 400px;
+	background-color: peachpuff;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.sign {
+	text-align: center;
+	margin-top: 10px;
+	padding : 15px;
+	margin-bottom: 5px;
+	border-radius: 30px;
+	background-color: white;
+}
+
+.button {
+	padding: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+	border-radius: 30px;
+	margin-top: 20px;
+	background-color: #FFB6C1;
+}
+
+.erreur {
+	padding-top: 10px;
+	text-align: center;
+	color: red;
+}
+
+h1 {
+	padding-top: 9%;
+}

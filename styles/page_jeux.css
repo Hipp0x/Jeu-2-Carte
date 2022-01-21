@@ -1,0 +1,85 @@
+body{
+	margin-top:50px;
+
+}
+
+.button {
+	bottom: 20px;
+	left: 40px;
+	position: fixed;
+}
+
+.button p{
+	width: 150px;
+	height:40px;
+	text-align: center;
+	padding-top: 20px;
+	border-radius: 30px;
+	font-weight: bold;
+	color: black;	
+}
+
+.block {
+	background: linear-gradient(#ff3333, 40%, #ffff66);
+}
+
+.button a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.button a:link {
+	color: black;
+	text-decoration: none;
+}
+
+.th{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.jeu {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.carre{
+	word-wrap:break-word;
+	margin: 20px 40px 20px 40px;
+
+}
+
+.carre a:visited {
+	color:black;
+	text-decoration: none;
+}
+
+.carre a:link{
+	color:black;
+	text-decoration: none;
+}
+
+.carre p {
+	font-size: 120%;
+	font-weight: bold;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	padding-top: 50px; 
+	border-radius: 20px;
+	box-shadow: 0px 4px 12px #aaa;
+	
+}
+
+.blck:hover {
+	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 13px 46px 0 rgba(0,0,0,0.19);
+	transition-duration:1s;
+}
+
+.blck:active{
+	transform: translateY(2px);
+	transition-duration:0.05s;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

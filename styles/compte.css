@@ -1,0 +1,100 @@
+.bloc {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.pres {
+	width: 500px;
+	height: 320px;
+	background-color: #b3e6ff;
+	margin-right: 220px;
+	border-radius: 30px;
+	padding-top: 50px;
+}
+
+.pres p {
+	margin-top: 20px;
+	font-size: 150%;
+}
+
+.mod {
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.jeu p{
+	width: 320px;
+	height: 45px;
+	border-radius: 30px;
+	background-color: #bfbfbf;
+	padding-top: 25px;
+	font-size: 120%;
+	box-shadow: 0px 8px 12px #aaa;
+}
+
+.donnee p{
+	width: 320px;
+	height: 45px;
+	border-radius: 30px;
+	background-color: #bfbfbf;
+	padding-top: 25px;
+	font-size: 120%;
+	box-shadow: 0px 8px 12px #aaa;
+}
+
+.supp p{
+	width: 320px;
+	height: 45px;
+	border-radius: 30px;
+	background-color: #bfbfbf;
+	padding-top: 25px;
+	font-size: 120%;
+	box-shadow: 0px 8px 12px #aaa;
+}
+
+.jeu a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.donnee a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.supp a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.jeu a:link {
+	color: black;
+	text-decoration: none;
+}
+
+.donnee a:link {
+	color: black;
+	text-decoration: none;
+}
+
+.supp a:link {
+	color: black;
+	text-decoration: none;
+}
+
+
+.blck:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24), 0 13px 46px 0 rgba(0,0,0,0.19);
+    transition-duration:1s;
+}
+
+.blck:active{
+    transform: translateY(2px);
+    transition-duration:0.05s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
